@@ -3,7 +3,8 @@ from discord.ext import commands, tasks
 import random
 import json
 
-TOKEN = 'MTM3MTExODA2MzE1OTg2OTU0Mg.G0XwxK.3_RxAYgeiNOHeBE3MmZY7hHwBcr7vjYgmG1QJU'
+import os
+TOKEN = os.getenv("TOKEN")
 LEBRON_ROLE_ID = 1371124034904920184  # The LeBron role
 glaze_messages = [
     "LeBron’s ledihh reshaped the NBA timeline.",
